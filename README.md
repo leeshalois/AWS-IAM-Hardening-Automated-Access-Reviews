@@ -47,3 +47,5 @@ Audit-focused AWS IAM table showing users, roles, policies, MFA, last activity, 
 | 28 | Orphaned            | OldProjectRoleA        | S3 + EC2 custom                   | Medium          | N/A              | No activity 90+ days | N/A            | Medium     | Orphaned               | Pending deletion             |
 | 29 | Orphaned            | AppMigrationRole       | DynamoDB RW + Lambda              | Medium          | N/A              | No activity          | N/A            | Medium     | No owner               | Owner assigned               |
 | 30 | Break-Glass         | EmergencyAdmin         | AdministratorAccess               | Critical        | FIDO + isolation | Never used           | N/A            | High       | Sensitive role         | Controlled, tested quarterly |
+
+### 🚧 Project in progress 🚧
